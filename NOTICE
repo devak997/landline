@@ -1,0 +1,22 @@
+Landline (DevPhone)
+Copyright (C) 2026 the Landline contributors
+
+This program is free software: you can redistribute it and/or modify it under the terms of the
+GNU General Public License v3.0 as published by the Free Software Foundation. See the LICENSE file.
+
+Third-party components:
+
+- Linphone SDK (liblinphone, mediastreamer2, bctoolbox, ...)
+  Belledonne Communications. Licensed under GPLv3 (or a commercial licence).
+  https://gitlab.linphone.org/BC/public/linphone-sdk
+
+- AndroidX, Jetpack Compose, Material 3, core-telecom
+  The Android Open Source Project. Apache License 2.0.
+  https://developer.android.com/jetpack/androidx
+
+- Material Symbols icons
+  Google. Apache License 2.0.
+
+Test-only:
+- Robolectric (Apache 2.0), Roborazzi (Apache 2.0), JUnit (EPL 1.0),
+  Material Components for Android color utilities (Apache 2.0).

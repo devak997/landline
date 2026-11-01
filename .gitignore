@@ -1,0 +1,22 @@
+# Build
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/release/
+
+# Local / machine-specific
+local.properties
+*.iml
+.DS_Store
+.kotlin/
+
+# IDE
+.idea/
+
+# Secrets — never commit
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
