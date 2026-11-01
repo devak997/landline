@@ -12,7 +12,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
       - name: Check (ktlint via Spotless, detekt, Android lint, unit + contrast + UI tests)
         run: ./gradlew check
       - name: Assemble release APK
