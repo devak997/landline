@@ -55,6 +55,12 @@ Grant microphone, notifications, contacts and call-log permissions, and allow
 unrestricted battery. Findings are fixed in source, not baselined; format with
 ./gradlew spotlessApply. Screenshots: ./gradlew recordRoborazziDebug.
 
+Setting up the line
+-------------------
+
+See docs/airtel-fiber-sip.md for how Airtel's IMS landline works and how to
+register it (educational only, not encouraged). Includes our worked example.
+
 Security
 --------
 
